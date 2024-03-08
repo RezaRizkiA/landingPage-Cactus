@@ -403,7 +403,36 @@ img {
   transform: translateY(-0.5rem);
 }
 /*=============== CARE ===============*/
+.care__container{
+  padding-top: 2.5rem;
+  row-gap: 2rem;
+}
 
+.care__img{
+  width: 270px;
+  filter: drop-shadow(var(--shadow-img));
+  justify-self: center;
+}
+
+.care__list{
+  display: grid;
+  row-gap: 1rem;
+}
+
+.care__list__item{
+  display: flex;
+  column-gap: .5rem;
+  align-items: flex-start;
+}
+
+.care__list__item i{
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+.care__description{
+  font-style: italic;
+}
 /*=============== CONTACT ===============*/
 
 /*=============== FOOTER ===============*/
