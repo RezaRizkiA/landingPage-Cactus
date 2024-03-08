@@ -434,6 +434,33 @@ img {
   font-style: italic;
 }
 /*=============== CONTACT ===============*/
+.contact__container{
+  padding-top: 2rem;
+  row-gap: 2rem;
+}
+
+.contact__img{
+  width: 270px;
+  filter: drop-shadow(var(--shadow-img));
+  justify-self: center;
+}
+
+.contact__data{
+  display: grid;
+  row-gap: 1.75rem;
+  text-align: center;
+}
+
+.contact__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: .5rem;
+}
+
+.contact__socials a{
+  color: var(--first-color);
+  font-size: 1.5rem;
+}
+
 
 /*=============== FOOTER ===============*/
 
