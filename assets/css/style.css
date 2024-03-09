@@ -378,7 +378,7 @@ img {
 .shop__title {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .shop__price {
@@ -388,8 +388,8 @@ img {
 
 .shop__button {
   position: absolute;
-  right: .75rem;
-  bottom: .75rem;
+  right: 0.75rem;
+  bottom: 0.75rem;
   outline: none;
   border: none;
   padding: 6px;
@@ -403,66 +403,136 @@ img {
   transform: translateY(-0.5rem);
 }
 /*=============== CARE ===============*/
-.care__container{
+.care__container {
   padding-top: 2.5rem;
   row-gap: 2rem;
 }
 
-.care__img{
+.care__img {
   width: 270px;
   filter: drop-shadow(var(--shadow-img));
   justify-self: center;
 }
 
-.care__list{
+.care__list {
   display: grid;
   row-gap: 1rem;
 }
 
-.care__list__item{
+.care__list__item {
   display: flex;
-  column-gap: .5rem;
+  column-gap: 0.5rem;
   align-items: flex-start;
 }
 
-.care__list__item i{
+.care__list__item i {
   font-size: 1.5rem;
   color: var(--first-color);
 }
 
-.care__description{
+.care__description {
   font-style: italic;
 }
 /*=============== CONTACT ===============*/
-.contact__container{
+.contact__container {
   padding-top: 2rem;
   row-gap: 2rem;
 }
 
-.contact__img{
+.contact__img {
   width: 270px;
   filter: drop-shadow(var(--shadow-img));
   justify-self: center;
 }
 
-.contact__data{
+.contact__data {
   display: grid;
   row-gap: 1.75rem;
   text-align: center;
 }
 
-.contact__title{
+.contact__title {
   font-size: var(--h2-font-size);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
-.contact__socials a{
+.contact__socials a {
   color: var(--first-color);
   font-size: 1.5rem;
 }
-
-
 /*=============== FOOTER ===============*/
+.footer {
+  padding-block: 6.5rem 2rem;
+}
+
+.footer__container {
+  row-gap: 4rem;
+}
+
+.footer__logo {
+  color: var(--title-color);
+  display: inline-flex;
+  column-gap: 0.25rem;
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.footer__logo i {
+  font-size: 1.5rem;
+  color: var(--first-color);
+  font-weight: initial;
+}
+
+.footer__description {
+  color: var(--text-color);
+}
+
+.footer__content {
+  grid-template-columns: repeat(2, max-content);
+  gap: 4rem 3rem;
+}
+
+.footer__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1rem;
+}
+
+.footer__links {
+  display: grid;
+  row-gap: 0.75rem;
+}
+
+.footer__link a {
+  color: var(--text-color);
+  transition: color 0.4s;
+}
+
+.footer__socials {
+  display: flex;
+  column-gap: 0.75rem;
+}
+
+.footer__social-link {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  transition: color 0.4s;
+}
+
+.footer__link:hover a,
+.footer__social-link:hover {
+  color: var(--first-color);
+}
+
+.footer__copy {
+  text-align: center;
+  display: block;
+  margin-top: 6rem;
+  font-size: var(--small-font-size);
+}
 
 /*=============== SCROLL BAR ===============*/
 
