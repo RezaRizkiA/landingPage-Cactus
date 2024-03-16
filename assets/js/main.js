@@ -36,7 +36,7 @@ window.addEventListener("scroll", blurHeader);
 /*=============== SHOW SCROLL UP ===============*/
 const showScrollUp = () => {
   const scrollUp = document.getElementById("scroll-up");
-  this.scrollY >= 350
+  this.scrollY >= 250
     ? scrollUp.classList.add("show-scrollup")
     : scrollUp.classList.remove("show-scrollup");
 };
@@ -61,6 +61,5 @@ const sectionActive = () => {
     }
   });
 };
-window.addEventListener('scroll', sectionActive)
-
+window.addEventListener("scroll", sectionActive);
 /*=============== SCROLL REVEAL ANIMATION ===============*/
